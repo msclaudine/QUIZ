@@ -24,14 +24,17 @@ To make a quiz board application we need:
 divsion for question,submit button to submit your answer and division or form to display result this will be on user interface or front-enterd.
 
 we also need condition to check if user selected the right answer and countin the right enswer made
-Eg:if (question1 == "b") {
-correct++;
-}
+
+        Eg:if (question1 == "b") {
+       correct++;
+                  }
+
 and condition to assign 2 marks to each rigth answer selected and sum up all together and display total marks to the user.
 
-Eg:if (correct > 0 && correct <= 11) {
-score = correct multiply(\*) score;
-}
+    Eg:if (correct > 0 && correct <= 11) {
+     score = correct multiply(\*) score;
+    }
+
 For more information please find us on
 
 Tel:+250788352016
