@@ -9,6 +9,7 @@ If you would like a local copy of this website, make sure you have git installed
 \$git clone https://github.com/msclaudine/QUIZ.git
 
 You may browse it from: https://msclaudine.github.io/QUIZ/
+
 Technologies used
 
 HTML,CSS, BOOTSTRAP,JAVASCRIP AND JQUERY

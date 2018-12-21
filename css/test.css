@@ -1,5 +1,5 @@
 body {
-  font-family: "
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif "
 }
 #quiz p{
   font-weight: bold;
@@ -56,7 +56,7 @@ input {
   border-radius: 20px;
   float:left;
   position:relative;
-  left:40px;
+  left:340px;
   margin-left: 20px;
   font-size: 30px;
   text-align:center;
@@ -71,8 +71,14 @@ input {
   display: inline;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
+}
+h2 {
+  font-style: oblique;
+  font-size: 30px;
+  padding:40px;
+ font-family: monospace;
 }
 .one {
   display: inline;

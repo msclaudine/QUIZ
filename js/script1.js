@@ -71,6 +71,5 @@ function check() {
   // });
   document.getElementById("result").style.visibility = "visible";
 
-  document.getElementById("score").innerHTML =
-    "Your score are:" + score + " /22";
+  document.getElementById("score").innerHTML = "Your score :" + score + " /22";
 }
