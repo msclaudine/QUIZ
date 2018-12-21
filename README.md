@@ -28,9 +28,9 @@ Eg:if (question1 == "b") {
 correct++;
 }
 and condition to assign 2 marks to each rigth answer selected and sum up all together and display total marks to the user.
-  
- Eg:if (correct > 0 && correct <= 11) {
-score = correct \* score;
+
+Eg:if (correct > 0 && correct <= 11) {
+score = correct multiply score;
 }
 For more information please find us on
 
