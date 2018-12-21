@@ -62,13 +62,10 @@ function check() {
   }
 
   $(document).ready(function() {
-    // $("#button").click(function() {
-
     $("#quiz").hide();
     $("#result").show();
   });
 
-  // });
   document.getElementById("result").style.visibility = "visible";
 
   document.getElementById("score").innerHTML = "Your score :" + score + " /22";

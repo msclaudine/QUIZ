@@ -7,9 +7,8 @@ body {
 
  #quiz {
    font-size: 22px;
-  /* margin-left: 10px; */
+ 
   background: white;
-  /* padding: 10px 20px 10px 20px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #quiz p{
@@ -62,10 +61,7 @@ input {
   text-align:center;
 }
 
-/* #picture {
-  width: 375px;
-  height: 245px;
-} */
+
 
 #mc {
   display: inline;
