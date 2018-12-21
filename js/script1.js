@@ -62,9 +62,8 @@ function check() {
   }
 
   $(document).ready(function() {
-    // $("#quiz").submit(function() {
     // $("#button").click(function() {
-    // alert("yes");
+
     $("#quiz").hide();
     $("#result").show();
   });
@@ -72,8 +71,8 @@ function check() {
   // });
   document.getElementById("result").style.visibility = "visible";
 
-  document.getElementById("score").innerHTML =
-    "You got " + correct + " correct.";
+  // document.getElementById("score").innerHTML =
+  //   "You got " + correct + " correct.";
   document.getElementById("score").innerHTML =
     "Your score are:" + score + " /22";
 }

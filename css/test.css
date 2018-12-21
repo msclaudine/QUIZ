@@ -49,12 +49,14 @@ input {
 
 #result {
   visibility: hidden; 
-  background: wheat;
+  background:whitesmoke;
   padding: 10px 20px 10px 20px;
   width: 1000px;
   height:200px;
   border-radius: 20px;
-  float: left;
+  float:left;
+  position:relative;
+  reft:40px;
   margin-left: 20px;
   font-size: 30px;
 }
