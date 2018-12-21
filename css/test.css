@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 #mc {
   display: inline;
 }
@@ -19,4 +23,37 @@ h1 {
   float: left;
   margin-left: 20px;
   font-size: 30px;
+}
+
+#quiz {
+  font-size: 22px;
+  /* margin-left: 10px; */
+  background: white;
+  /* padding: 10px 20px 10px 20px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 800px; */
+  /* border-radius: 20px; */
+  /* float: left; */
+}
+*/ input {
+  margin-bottom: 20px;
+  display: block;
+}
+
+#button {
+  background: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  transition-duration: 0.5s;
+  margin-top: 15px;
+}
+
+#button:hover {
+  background: white;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
 }
