@@ -11,7 +11,7 @@ function check() {
   var question10 = document.quiz.question10.value;
   var question11 = document.quiz.question11.value;
 
-  var score;
+  var score = 2;
   var correct = 0;
 
   if (question1 == "b") {
@@ -53,29 +53,27 @@ function check() {
     correct++;
   }
 
-  // var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-  // var messages = [
-  //   "Great job!",
-  //   "That's just okay",
-  //   "You really need to do better"
-  // ];
-
   if (correct == 0) {
     score = 0;
   }
 
-  if (correct > 0 && correct < 3) {
-    score = 1;
+  if (correct > 0 && correct <= 11) {
+    score = correct * score;
   }
 
-  if (correct == 3) {
-    score = 0;
-  }
+  $(document).ready(function() {
+    // $("#quiz").submit(function() {
+    // $("#button").click(function() {
+    // alert("yes");
+    $("#quiz").hide();
+    $("#result").show();
+  });
 
-  document.getElementById("after_submit").style.visibility = "visible";
+  // });
+  document.getElementById("result").style.visibility = "visible";
 
-  // document.getElementById("message").innerHTML = messages[score];
-  document.getElementById("number_correct").innerHTML =
+  document.getElementById("score").innerHTML =
     "You got " + correct + " correct.";
-  // document.getElementById("picture").src = pictures[score];
+  document.getElementById("score").innerHTML =
+    "Your score are:" + score + " /22";
 }

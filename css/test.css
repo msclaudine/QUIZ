@@ -1,6 +1,9 @@
 body {
   font-family: "
 }
+#quiz p{
+  font-weight: bold;
+}
 
  #quiz {
    font-size: 22px;
@@ -8,11 +11,10 @@ body {
   background: white;
   /* padding: 10px 20px 10px 20px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* width: 800px; */
-  /* border-radius: 20px; */
-  /* float: left; */
-} */
-
+}
+#quiz p{
+  font-weight: bold;
+}
 input {
   margin-bottom: 20px;
   display: block;
@@ -27,7 +29,7 @@ input {
 }
 
 #button {
-  background: green;
+  background:burlywood;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -35,30 +37,32 @@ input {
   font-size: 16px;
   transition-duration: 0.5s;
   margin-top: 15px;
+  float:right;
 }
 
 #button:hover {
-  background: white;
-  border: 1px solid green;
+  background:silver;
+  border: 1px solid whitesmoke;
   color: black;
   cursor: pointer;
 }
 
-#after_submit {
-  visibility: hidden;
-  background: #ff5459;
+#result {
+  visibility: hidden; 
+  background: wheat;
   padding: 10px 20px 10px 20px;
-  width: 400px;
+  width: 1000px;
+  height:200px;
   border-radius: 20px;
   float: left;
   margin-left: 20px;
   font-size: 30px;
 }
 
-#picture {
+/* #picture {
   width: 375px;
   height: 245px;
-}
+} */
 
 #mc {
   display: inline;
