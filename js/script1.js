@@ -51,3 +51,22 @@ function check() {
   if (question11 == "a") {
     correct++;
   }
+  if (correct == 0) {
+    score = 0;
+  }
+
+  if (correct > 0 && correct < 3) {
+    score = 1;
+  }
+
+  if (correct == 3) {
+    score = 0;
+  }
+
+  document.getElementById("after_submit").style.visibility = "visible";
+
+  // document.getElementById("message").innerHTML = messages[score];
+  document.getElementById("number_correct").innerHTML =
+    "You got " + correct + " correct.";
+  // document.getElementById("picture").src = pictures[score];
+}
