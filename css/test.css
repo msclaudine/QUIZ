@@ -1,32 +1,9 @@
 body {
-  font-family: sans-serif;
+  font-family: "
 }
 
-#mc {
-  display: inline;
-}
-
-h1 {
-  text-align: center;
-}
-.one {
-  display: inline;
-  position: relative;
-  left: 10px;
-}
-#after_submit {
-  visibility: hidden;
-  background: #ff5459;
-  padding: 10px 20px 10px 20px;
-  width: 400px;
-  border-radius: 20px;
-  float: left;
-  margin-left: 20px;
-  font-size: 30px;
-}
-
-#quiz {
-  font-size: 22px;
+ #quiz {
+   font-size: 22px;
   /* margin-left: 10px; */
   background: white;
   /* padding: 10px 20px 10px 20px; */
@@ -34,10 +11,19 @@ h1 {
   /* width: 800px; */
   /* border-radius: 20px; */
   /* float: left; */
-}
-*/ input {
+} */
+
+input {
   margin-bottom: 20px;
   display: block;
+}
+
+#textbox {
+  height: 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 5px;
 }
 
 #button {
@@ -56,4 +42,33 @@ h1 {
   border: 1px solid green;
   color: black;
   cursor: pointer;
+}
+
+#after_submit {
+  visibility: hidden;
+  background: #ff5459;
+  padding: 10px 20px 10px 20px;
+  width: 400px;
+  border-radius: 20px;
+  float: left;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+#picture {
+  width: 375px;
+  height: 245px;
+}
+
+#mc {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+}
+.one {
+  display: inline;
+  position: relative;
+  left: 10px;
 }
